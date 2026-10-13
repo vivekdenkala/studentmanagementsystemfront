@@ -2,8 +2,8 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://localhost:8082/api/students";
-const ATTENDANCE_URL = "http://localhost:8082/api/attendance";
+const API_URL = "https://studentmanagementsystem-51fb.onrender.com/api/students";
+const ATTENDANCE_URL = "https://studentmanagementsystem-51fb.onrender.com/api/attendance";
 
 function App() {
   const [students, setStudents] = useState([]);
